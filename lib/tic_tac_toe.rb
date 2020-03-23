@@ -63,16 +63,16 @@ end
 # Prompts user input, converts user input to index, and checks if move is valid. If not, process is repeated until user inputs a valid move.
 # ––––––––––––––––––––––––––––––––
 def turn(board)
-  puts "Please enter 1-9:"
-  input = gets.strip
-  index = input_to_index(input)
-  player_token = current_player(board)
-  if valid_move?(board, index)
-    move(board, index, player_token)
-    display_board(board)
-  else
-    turn(board)
-  end
+  # puts "Please enter 1-9:"
+  # input = gets.strip
+  # index = input_to_index(input)
+  # player_token = current_player(board)
+  # if valid_move?(board, index)
+  #   move(board, index, player_token)
+  #   display_board(board)
+  # else
+  #   turn(board)
+  # end
 end
 
 
