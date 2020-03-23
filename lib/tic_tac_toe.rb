@@ -154,15 +154,15 @@ end
 # Accepts a 'board' and returns 'true' for a draw, a won game w/ full board, won game w/ incomplete board, and returns 'false' for an in-progress game.
 # ––––––––––––––––––––––––––––––––
 def over?(board)
-  if full?(board) && won?(board)
-    true
-  elsif won?(board)
-    true
-  elsif !full?(board) && !won?(board)
-    false
-  elsif draw?(board)
-    true
-  end
+  # if full?(board) && won?(board)
+  #   true
+  # elsif won?(board)
+  #   true
+  # elsif !full?(board) && !won?(board)
+  #   false
+  # elsif draw?(board)
+  #   true
+  # end
 end
 
 
