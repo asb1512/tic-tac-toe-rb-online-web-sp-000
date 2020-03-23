@@ -180,5 +180,5 @@ end
 # This method runs the game.
 # ––––––––––––––––––––––––––––––––
 def play(board)
-  # turn(board) until won?(board)
+  turn(board) until won?(board)
 end
